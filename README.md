@@ -1,1 +1,1 @@
-My first readme
+Man this course is hectic
