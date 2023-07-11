@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Variables
+repo_path="/home/dlta/alx-pre_course"
+
+# Change directory to the repository path
+cd "$repo_path"
+
+# Prompt for commit message
+read -p "Enter commit message: " commit_message
+
+# Add all changes to the staging area
+git add .
+
+# Commit changes with the specified commit message
+git commit -m "$commit_message"
+
+# Push changes to the remote repository
+git push
+
+# Print success message
+echo "Changes have been committed and pushed to GitHub."
